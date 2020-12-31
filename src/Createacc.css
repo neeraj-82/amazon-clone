@@ -1,0 +1,44 @@
+.CreateAcc{
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.CreateAcc__logo{
+    object-fit: contain;
+   width: 100px;
+   height: 100px;
+}
+.CreateAcc__container{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgray;
+    padding: 25px;
+}
+.CreateAcc__container >h1{
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+.CreateAcc__container > form>h5{
+    margin-bottom:5px ;
+}
+.CreateAcc__container >form>input{
+    margin-bottom: 5px;
+    width: 98%;
+    border-radius: 2px;
+    height: 30px;
+}
+
+
+.CreateAcc__container > form>button{
+    background-color: #f0c14b;
+    border-color: #a88734 #9c7e31 #846a29;
+    color:#111;
+    
+    cursor: pointer;
+    width: 100%;
+    margin-top: 5px;
+    padding: 5px;
+}

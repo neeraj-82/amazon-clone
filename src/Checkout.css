@@ -1,0 +1,23 @@
+.checkout{
+    display: flex;
+ 
+    padding: 20px;
+    background-color: white;
+    height: max-content;
+    
+}
+.checkout__ad{
+    width: 100%;
+    object-fit: contain;
+   
+}
+.checkout__down{
+    display: flex;
+    justify-content: flex-end;
+  
+}
+@media (max-width:775px){
+    .checkout{
+        flex-direction: column;
+    }
+}
