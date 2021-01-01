@@ -8,7 +8,7 @@ import {useStateValue}  from './StateProvider';
 import { auth } from './firebase';
 function Header() {
 
-    const[{basket,user,search},dispatch]=useStateValue();
+    // const[{basket,user,search},dispatch]=useStateValue();
     // const[search,set_search]=useState('');
 
     const Signout=()=>{
