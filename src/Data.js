@@ -1,4 +1,4 @@
-const Data=[
+const Productlistfirst=[
     {
      
         id:1003,
@@ -70,7 +70,7 @@ const Data=[
 
 ]
 
-const pro=[
+const productlistsecond=[
     {
      
         id:21,
@@ -140,5 +140,5 @@ const pro=[
     rating:4,
   }
 ]
-export default Data;
-export {pro};
+export default Productlistfirst;
+export {productlistsecond};
